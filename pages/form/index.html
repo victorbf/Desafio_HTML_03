@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img class="header_left-content--img" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png"
+        alt="logo" />
+    </div>
+    <ul class="header_right-content">
+      <li class="header_right-content--li"><a href="../home/index.html">Home</a></li>
+      <li class="header_right-content--li"><a href="../form/index.html">Contato</a></li>
+      <li class="header_right-content--li"><a href="../about_us/index.html">Sobre nos</a></li>
+      <li class="header_right-content--li">
+        <button class="header_right-content--button" type="button">
+          Compre!
+        </button>
+      </li>
+    </ul>
+  </header>
+  <form name="form" id="form">
+    <h1>Formulário</h1>
+    <label for="user">
+      Usuário
+    </label>
+    <input id="user" name="user" type="text" placeholder="user451" />
+
+    <label for="email">
+      Email
+    </label>
+    <input id="email" name="email" type="text" placeholder="victorfernandes@email.com" />
+
+    <label for="password">
+      Senha
+    </label>
+    <input id="password" name="password" type="password" placeholder="********" />
+
+    <label for="confirm_password">
+      Confirmação de senha
+    </label>
+    <input id="confirm_password" name="confirm_password" type="password" placeholder="********" />
+
+    <label for="complete_name">
+      Nome Completo
+    </label>
+    <input id="complete_name" name="complete_name" type="text" placeholder="Victor Fernandes" />
+
+    <label for="age">
+      Idade
+    </label>
+    <input id="age" name="age" type="number" placeholder="12" />
+
+    <label for="phone">
+      Telefone
+    </label>
+    <input type="tel" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx" />
+
+    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+  </form>
+  <footer>
+    <h3>Contato</h3>
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
